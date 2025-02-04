@@ -1,6 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "github>canonical/charmed-kubeflow-workflows"
+        "github>canonical/charmed-kubeflow-workflows#KF-6848-configure-renovate-charmcraft-yaml-pip"
     ]
 }
