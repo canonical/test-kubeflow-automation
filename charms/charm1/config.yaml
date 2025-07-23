@@ -15,7 +15,7 @@ options:
     description: Listening port
   custom_images:
     type: string
-    default: | 
+    default: |
       configmap__agent : ''
       configmap__batcher : ''
       configmap__explainers__art : ''
@@ -44,6 +44,6 @@ options:
     description: The value of HTTPS_PROXY environment variable in the storage-initializer container.
     type: string
   no-proxy:
-    default: ""
+    default: "ghcr.io/example/my-rock:aece59f5"
     description: The value of NO_PROXY environment variable in the storage-initializer container.
     type: string
