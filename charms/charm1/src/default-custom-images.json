@@ -1,6 +1,6 @@
 {
     "configmap__agent": "charmedkubeflow/kserve-agent:0.14.1-0fb8a34",
-    "configmap__batcher": "charmedkubeflow/kserve-agent:0.14.1-0fb8a34",
+    "configmap__batcher": "ghcr.io/example/my-rock:1d38b87b",
     "configmap__explainers__art": "charmedkubeflow/artexplainer:0.14.1-8ace842",
     "configmap__logger": "charmedkubeflow/kserve-agent:0.14.1-0fb8a34",
     "configmap__router": "charmedkubeflow/kserve-router:0.14.1-35ac068",
